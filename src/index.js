@@ -3,7 +3,7 @@ import './style.css'
 const component = () => {
 
   const pageTitle = document.createElement('h1')
-  pageTitle.innerHTML = 'Peak Time'
+  pageTitle.innerHTML = 'Peak Time Bro'
 
   console.log(pageTitle)
   return pageTitle
