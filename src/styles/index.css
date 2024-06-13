@@ -15,12 +15,29 @@ body {
 nav {
   height: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
+  padding: 0px 50px;
 }
 
-nav, button {
+nav button {
   font-size: x-large;
   font-family: 'figtree';
+  background-color: white;
+  opacity: 1;
+  border: none;
+}
+
+nav button:hover {
+  opacity: 0.5;
+  color: lightseagreen;
+  transition: 0.5s;
+}
+
+#mimosa-btn {
+  color: black;
+  opacity: 1;
+  font-family: 'paradiso';
+  font-size: 72px;
 }
 
 #content {
@@ -33,4 +50,9 @@ nav, button {
 @font-face {
   font-family: 'figtree';
   src: url(/src/fonts/Figtree/Figtree-VariableFont_wght.ttf)
+}
+
+@font-face {
+  font-family: 'paradiso';
+  src: url(/src/fonts/grand_paradiso/GrandParadisoItalic-Italic.woff2);
 }
