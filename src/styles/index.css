@@ -20,6 +20,7 @@ nav {
 
 nav, button {
   font-size: x-large;
+  font-family: 'figtree';
 }
 
 #content {
@@ -27,4 +28,9 @@ nav, button {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+
+@font-face {
+  font-family: 'figtree';
+  src: url(/src/fonts/Figtree/Figtree-VariableFont_wght.ttf)
 }
