@@ -3,3 +3,7 @@
   border: 1px solid blue;
   width: 100vh;
 }
+
+.article-title {
+  font-weight: bold;
+}

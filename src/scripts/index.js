@@ -6,8 +6,11 @@ const loadContent = () => {
   const contentEl = document.getElementById('content')
 
   const welcomePage = loadWelcome()
-  const welcomeBtns = document.querySelectorAll('.home-btn')
-  welcomeBtns.forEach(function(button) {
+  const menuPage = loadMenu()
+  // const contactPage = loadContact()
+
+  const homeButtons = document.querySelectorAll('.home-btn')
+  homeButtons.forEach(function(button) {
     button.addEventListener('click', function() {
     contentEl.innerHTML = ''
     contentEl.appendChild(welcomePage)
@@ -17,10 +20,10 @@ const loadContent = () => {
   const menuBtn = document.getElementById('menu-btn')
   menuBtn.addEventListener('click', function() {
     contentEl.innerHTML = ''
-    contentEl.appendChild(loadMenu())
+    contentEl.appendChild(menuPage)
   })
 
-  contentEl.append(welcomePage)
+  contentEl.append(menuPage)
   return contentEl
 }
 

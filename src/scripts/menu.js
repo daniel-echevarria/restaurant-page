@@ -1,28 +1,41 @@
 import '../styles/menu.css'
+import foodMenu from '../data/food-menu.json'
 
 export default function loadMenuPage() {
   const menuContainer = document.createElement('div')
   menuContainer.classList.add('menu-container')
 
-  const foodContainer = document.createElement('div')
-  foodContainer.classList.add('menu-section', 'food-container')
-    const foodTitle = document.createElement('h2')
-    foodTitle.innerHTML = 'Food'
-    foodContainer.appendChild(foodTitle)
+  const menuSections = ['Food', 'Booze', 'Coffee']
+  const menuSectionsEls = []
 
-  const boozeContainer = document.createElement('div')
-  boozeContainer.classList.add('menu-section', 'booze-container')
-    const boozeTitle = document.createElement('h2')
-    boozeTitle.innerHTML = 'Booze'
-    boozeContainer.append(boozeTitle)
+  menuSections.forEach((item) =>{
+    const sectionId = item.toLowerCase()
+    const sectionEl = document.createElement('div')
+    sectionEl.classList.add('menu-section')
+    sectionEl.id = `${sectionId}-container`
+    const sectionTitle = document.createElement('h2')
+    sectionTitle.innerHTML = `${item}`
+    sectionEl.appendChild(sectionTitle)
+    menuContainer.appendChild(sectionEl)
+    menuSectionsEls.push(sectionEl)
+  })
 
-  const coffeeContainer = document.createElement('div')
-  coffeeContainer.classList.add('menu-section', 'coffee-container')
-    const coffeeTitle = document.createElement('h2')
-    coffeeTitle.innerHTML = 'Coffee & Other Drinks'
-    coffeeContainer.append(coffeeTitle)
+  // Add articles to the food container
+  foodMenu.forEach((item) => {
+    const articleEl = document.createElement('div')
 
-  menuContainer.append(foodContainer, boozeContainer, coffeeContainer)
+    const articleTitle = document.createElement('p')
+    articleTitle.classList.add('article-title')
+    articleTitle.innerHTML = `${item.name}`
+
+    const articleDescription = document.createElement('p')
+    articleDescription.classList.add('article-description')
+    articleDescription.innerHTML = `${item.description}`
+
+    articleEl.append(articleTitle, articleDescription)
+    const foodContainer = menuSectionsEls.find(item => item.id === 'food-container')
+    foodContainer.appendChild(articleEl)
+  })
 
   return menuContainer
 }

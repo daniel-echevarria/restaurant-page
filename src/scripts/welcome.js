@@ -1,14 +1,12 @@
 import '../styles/welcome.css'
-import restoImg from '../brunch.jpg'
 
 export default function loadWelcomePage() {
 
   const welcomeContainer = document.createElement('div')
   welcomeContainer.classList.add('welcome-container')
 
-  const welcomeImg = document.createElement('img')
+  const welcomeImg = document.createElement('div')
   welcomeImg.classList.add('welcome-img')
-  welcomeImg.src = restoImg
 
   const welcomeTextContainer = document.createElement('div')
   welcomeTextContainer.classList.add('welcome-text-container')

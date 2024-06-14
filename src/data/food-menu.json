@@ -1,0 +1,42 @@
+[
+  {
+      "name": "Avocado Toast",
+      "description": "Smashed avocado seasoned with sea salt and lemon juice, served on toasted artisan bread.",
+      "price": 12.99
+  },
+  {
+      "name": "Eggs Benedict",
+      "description": "Poached eggs and Canadian bacon on a toasted English muffin, topped with hollandaise sauce.",
+      "price": 14.50
+  },
+  {
+      "name": "Pancakes",
+      "description": "Fluffy pancakes served with maple syrup and a choice of fresh berries or bananas.",
+      "price": 10.99
+  },
+  {
+      "name": "French Toast",
+      "description": "Thick slices of bread soaked in a mixture of beaten eggs and milk, grilled until golden brown.",
+      "price": 11.99
+  },
+  {
+      "name": "Vegetarian Omelette",
+      "description": "Three-egg omelette filled with sautéed spinach, mushrooms, tomatoes, and Swiss cheese.",
+      "price": 12.50
+  },
+  {
+      "name": "Full English Breakfast",
+      "description": "Grilled sausage, bacon, eggs, grilled tomatoes, mushrooms, baked beans, and toast.",
+      "price": 16.99
+  },
+  {
+      "name": "Fruit Salad",
+      "description": "A refreshing mix of seasonal fruits, such as strawberries, blueberries, kiwi, and melon.",
+      "price": 8.99
+  },
+  {
+      "name": "Granola Bowl",
+      "description": "Greek yogurt topped with house-made granola, honey, and a selection of fresh fruits and nuts.",
+      "price": 9.50
+  }
+]
