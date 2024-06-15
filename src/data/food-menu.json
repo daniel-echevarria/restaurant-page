@@ -1,12 +1,12 @@
 [
   {
       "name": "Avocado Toast",
-      "description": "Smashed avocado seasoned with sea salt and lemon juice, served on toasted artisan bread.",
+      "description": "with sea salt and lemon juice, served on toasted artisan bread.",
       "price": 12.99
   },
   {
       "name": "Eggs Benedict",
-      "description": "Poached eggs and Canadian bacon on a toasted English muffin, topped with hollandaise sauce.",
+      "description": "With Canadian bacon on a toasted English muffin, topped with hollandaise sauce.",
       "price": 14.50
   },
   {

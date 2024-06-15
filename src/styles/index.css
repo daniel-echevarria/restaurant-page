@@ -10,6 +10,7 @@ button {
 body {
   display: grid;
   grid-template-rows: 200px 1fr 200px;
+  font-family: 'figtree';
 }
 
 nav {
@@ -21,7 +22,6 @@ nav {
 
 nav button {
   font-size: x-large;
-  font-family: 'figtree';
   background-color: white;
   opacity: 1;
   border: none;

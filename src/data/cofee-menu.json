@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Iced Coffee",
+    "price": 4.00
+  },
+  {
+    "name": "Latte",
+    "price": 5.00
+  },
+  {
+    "name": "Chai Tea Latte",
+    "price": 5.50
+  },
+  {
+    "name": "Cappuccino",
+    "price": 4.50
+  },
+  {
+    "name": "Espresso",
+    "price": 3.00
+  },
+  {
+    "name": "Mocha",
+    "price": 5.50
+  },
+  {
+    "name": "Macchiato",
+    "price": 4.75
+  },
+  {
+    "name": "Flat White",
+    "price": 5.00
+  },
+  {
+    "name": "Americano",
+    "price": 3.50
+  },
+  {
+    "name": "Orange Juice",
+    "price": 3.50
+  },
+  {
+    "name": "Green Smoothie",
+    "price": 7.00
+  },
+  {
+    "name": "Herbal Tea",
+    "price": 3.50
+  },
+  {
+    "name": "Lemonade",
+    "price": 4.00
+  },
+  {
+    "name": "Sparkling Water",
+    "price": 2.50
+  }
+]

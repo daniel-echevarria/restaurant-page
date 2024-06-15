@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Mimosa",
+    "price": 8.00
+  },
+  {
+    "name": "Bloody Mary",
+    "price": 10.00
+  },
+  {
+    "name": "Bellini",
+    "price": 9.00
+  },
+  {
+    "name": "Screwdriver",
+    "price": 8.50
+  },
+  {
+    "name": "Irish Coffee",
+    "price": 7.00
+  },
+  {
+    "name": "Sangria",
+    "price": 9.50
+  }
+]
