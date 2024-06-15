@@ -21,7 +21,9 @@ nav {
 }
 
 nav button {
-  font-size: x-large;
+  font-size: large;
+  letter-spacing: 5px;
+  text-transform: uppercase;
   background-color: white;
   opacity: 1;
   border: none;
@@ -38,6 +40,7 @@ nav button:hover {
   opacity: 1;
   font-family: 'paradiso';
   font-size: 72px;
+  text-transform: none;
 }
 
 #content {

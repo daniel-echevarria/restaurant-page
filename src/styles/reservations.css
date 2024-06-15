@@ -1,0 +1,28 @@
+.reservations-container {
+  background-color: rgb(240, 240, 240);
+  padding: 180px 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.reservations-img {
+  max-width: 50%;
+}
+
+.reservations-text-container {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  height: 100%;
+  background-color: white;
+}
+
+.reservations-txt {
+  font-size: 1.8vh;
+  color: gray;
+  margin: 0px 70px;
+  max-width: 80%;
+}
+

@@ -1,13 +1,16 @@
 import '../styles/index.css';
 import loadWelcome from './welcome.js'
 import loadMenu from './menu.js'
+import loadReservations from './reservations.js'
+import loadContact from './contact.js'
 
 const loadContent = () => {
   const contentEl = document.getElementById('content')
 
   const welcomePage = loadWelcome()
   const menuPage = loadMenu()
-  // const contactPage = loadContact()
+  const reservationsPage = loadReservations()
+  const contactPage = loadContact()
 
   const homeButtons = document.querySelectorAll('.home-btn')
   homeButtons.forEach(function(button) {
@@ -23,7 +26,13 @@ const loadContent = () => {
     contentEl.appendChild(menuPage)
   })
 
-  contentEl.append(menuPage)
+  const reservationsBtn = document.getElementById('reservations-btn')
+  reservationsBtn.addEventListener('click', function() {
+    contentEl.innerHTML = ''
+    contentEl.appendChild(reservationsPage)
+  })
+
+  contentEl.append(reservationsPage)
   return contentEl
 }
 

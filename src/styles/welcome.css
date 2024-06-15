@@ -7,7 +7,7 @@
 }
 
 .welcome-img {
-  background-image: url('/src/brunch.jpg');
+  background-image: url('/src/images/brunch.jpg');
   background-size: cover;
   background-attachment: fixed;
   height: calc(100vh - 200px);
