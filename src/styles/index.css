@@ -21,12 +21,18 @@ nav {
 }
 
 nav button {
-  font-size: large;
+  font-size: clamp(1.7vh, 18px, 2vh);
   letter-spacing: 5px;
   text-transform: uppercase;
   background-color: white;
   opacity: 1;
   border: none;
+}
+
+h1 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
 }
 
 nav button:hover {

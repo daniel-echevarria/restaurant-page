@@ -1,0 +1,37 @@
+.contact-container {
+  background-color: rgb(240, 240, 240);
+  padding: 180px 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact-img {
+  max-width: 50%;
+  border: 5px solid white;
+  filter: grayscale(100%);
+}
+
+.contact-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+  gap: 30%;
+  height: 100%;
+  margin-left: 50px;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: min(15px, 1.8vh);
+  margin: 0px 70px;
+  max-width: 80%;
+}
+
+.contact-section p {
+  font-size: 1.3vh;
+}

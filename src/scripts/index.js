@@ -32,7 +32,13 @@ const loadContent = () => {
     contentEl.appendChild(reservationsPage)
   })
 
-  contentEl.append(reservationsPage)
+  const contactBtn = document.getElementById('contact-btn')
+  contactBtn.addEventListener('click', function() {
+    contentEl.innerHTML = ''
+    contentEl.appendChild(contactPage)
+  })
+
+  contentEl.append(contactPage)
   return contentEl
 }
 
