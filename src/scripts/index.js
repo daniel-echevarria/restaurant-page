@@ -38,9 +38,9 @@ const loadContent = () => {
     contentEl.appendChild(contactPage)
   })
 
-  contentEl.append(contactPage)
+  contentEl.append(welcomePage)
   return contentEl
 }
 
 
-document.body.appendChild(loadContent())
+loadContent()
